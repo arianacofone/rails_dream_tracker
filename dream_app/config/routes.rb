@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  namespace :dreams do
+  resources :dreams
 end
