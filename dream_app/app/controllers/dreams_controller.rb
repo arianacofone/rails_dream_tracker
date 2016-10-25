@@ -1,5 +1,5 @@
 class DreamsController < ApplicationController
-  before_action :get_dreams, only: [:show, :edit, :update, :destroy]
+  before_action :get_dream, only: [:show, :edit, :update, :destroy]
 
   def index
     @dreams = Dream.all
@@ -13,7 +13,7 @@ class DreamsController < ApplicationController
   end
 
   def create
-    dream = Dream.new(post_params)
+    dream = Dream.new(dream_params)
     if dream.save
       redirect_to dream
     else
