@@ -1,0 +1,9 @@
+<h2>Dream Logs</h2>
+
+<% @dreams.each do |post| %>
+  <p><%= post.title %></p>
+  <p><%= post.body %></p>
+  <p><%= post.author %></p>
+  <a href="/dreams/<%= dream.id %>/edit">Edit</a>
+  <a href="/dreams/<%= dream.id %>" data-method="delete">Delete</a>
+<% end %>

@@ -1,0 +1,12 @@
+<%= form_for(@dream) do |f| %>
+  <%= f.label "title" %>
+  <%= f.text_field :title %>
+
+  <%= f.label "blog post" %>
+  <%= f.text_field :body %>
+
+  <%= f.label "author" %>
+  <%= f.text_field :author %>
+
+  <%= f.submit %>
+<% end %>
