@@ -1,5 +1,5 @@
 10.times do
-  Post.create({
+  Dream.create({
     title: FFaker::Name.first_name,
     dream: FFaker::HipsterIpsum.paragraph,
   })

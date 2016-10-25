@@ -21,16 +21,16 @@ class DreamsController < ApplicationController
     end
   end
 
-  def edit
-  end
+  # def edit
+  # end
 
-  def update
-    if @dream.update(dream_params)
-      redirect_to @dream
-    else
-      redirect_to edit_dream_path(@dream)
-    end
-  end
+  # def update
+  #   if @dream.update(dream_params)
+  #     redirect_to @dream
+  #   else
+  #     redirect_to edit_dream_path(@dream)
+  #   end
+  # end
 
   def destroy
     if @dream.destroy

@@ -1,10 +1,15 @@
-<h2>Dream Logs</h2>
+<h1>DREAM LOG</h1>
 
-  <a href="/dreams/new">New Dream</a>
+<div id="new-dream">
+  <a href="/dreams/new">LOG NEW DREAM</a>
+</div>
+
+<h2>Past Dreams</h2>
 
 <% @dreams.each do |dream| %>
+  <div class ="dream">
+    <a href="/dreams/<%= dream.id %>" data-method="delete" class="edit">X</a>
   <p><%= dream.title %></p>
   <p><%= dream.dream %></p>
-  <a href="/dreams/<%= dream.id %>/edit">Edit</a>
-  <a href="/dreams/<%= dream.id %>" data-method="delete">Delete</a>
+  </div>
 <% end %>
