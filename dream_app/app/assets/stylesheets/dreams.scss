@@ -37,7 +37,7 @@ a {
 
 .dream {
   background-color: white;
-  width: 43%;
+  width: 44%;
   height: 100%;
   float: right;
   margin: 1rem;
@@ -67,6 +67,7 @@ a {
   font-size: 1rem;
   border-radius: 5px;
   border: none;
+  text-align: center;
 }
 
 .title {
@@ -78,16 +79,27 @@ a {
   width: 40%;
   display: block;
   margin: 0 auto;
-  height: 6rem;
+  height: 5rem;
   border-radius: 10px;
   font-size: 1rem;
   text-align: left;
   padding:  0.4em;
-  padding-bottom:190px;
+  padding-bottom: 20rem;
   border: none;
 }
 
 .view {
   color: white;
-  font-size: 2rem;
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  top: 3rem;
+}
+
+#directory {
+  background-color: rgb(173,183,247);
+  color: white;
+  width: 10%;
+  margin: 0 auto;
+  border-radius: 5px;
 }
