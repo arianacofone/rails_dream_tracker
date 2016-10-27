@@ -1,13 +1,9 @@
 # Rails Dream Tracker
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/20157962/19778940/f388db40-9c4c-11e6-9f95-522c5262f5d4.png" width="40%">
+  <img src="https://cloud.githubusercontent.com/assets/20157962/19778940/f388db40-9c4c-11e6-9f95-522c5262f5d4.png" width="50%">
   </img>
-</p>
-
-
-<p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/20157962/19778346/4c4f4e06-9c4a-11e6-8466-71997ae152ff.png" width="40%">
+   <img src="https://cloud.githubusercontent.com/assets/20157962/19778346/4c4f4e06-9c4a-11e6-8466-71997ae152ff.png" width="50%">
   </img>
 </p>
 
